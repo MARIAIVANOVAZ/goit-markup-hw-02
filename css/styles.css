@@ -1,0 +1,196 @@
+/* primary-text-color #757575 */
+/* secondary-text-color #212121*/
+/* accent-color       #2196F3 */
+/* white-color #FFFFFF */
+/* footer-hero-background-color #2F303A */
+/*  primary-background-color   #FFFFFF*/
+/*  secondary-background-color  #F5F4FA*/
+/* contacts-color rgba(255, 255, 255, 0,6) */
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --footer-hero-background-color: #2F303A;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --contacts-color: rgba(255, 255, 255, 0,6);
+}
+
+body{
+    background-color: var(--white-color) ;
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* logo */
+.logo{
+    color: var( --accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-header{
+    color: var(--black-color);
+}
+
+/* Hero  */
+.hero{
+    background-color: var(--footer-hero-background-color);
+    color: var( --white-color)
+}
+.hero-title{
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.button{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    color: #188CE8;
+}
+
+/* site-nav */
+.list{
+    list-style: none;
+}
+.site-nav .link{
+    color: var(--secondary-text-color);
+    font-style: 500;
+    line-height: 1.14;
+    letter-spacing: 2%;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color) ;
+}
+
+/* auth-nav */
+.auth-nav .contact{
+  color: var(--secondary-text-color); 
+  font-style: 500;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+.auth-nav .contact:hover,
+.auth-nav .contact:focus{
+    color: var(--accent-color) ;
+}
+
+/* sections */
+.section{
+    background-color: var(--white-color);
+}
+.section-title{
+    color: var(--secondary-text-color);
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.section-subtitle{
+    color: var(--secondary-text-color);
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.content{
+    line-height: 1.71;
+}
+
+/* team section */
+.team{
+    background-color: var(--secondary-background-color);
+}
+.name-of-team{
+    color: var(--secondary-text-color);
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.profession{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: var(--footer-hero-background-color);
+}
+.logo-footer{
+    color: var(--white-color) ;
+}
+.address{
+   color: var(--white-color); 
+   font-style: normal;
+}
+.contact-footer{
+    color: var(--contacts-color);
+}
+.contact-footer:hover,
+.contact-footer:focus{
+    color: var(--white-color)
+}
+
+/* portfolio */
+.portfolio{
+    background-color: var(--white-color);
+}
+.portfolio .title{
+    color: var(--secondary-text-color);
+    font-style: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 00.06em;
+}
+.portfolio .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+.portfolio-btn.primary{
+    background-color: var(--accent-color);
+    color: var(--white-color) ;
+}
+.portfolio-btn{
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover{
+    background-color: var(--accent-color);
+    color: var(--white-color) ;
+}
+
+/* link */
+.link{
+    text-decoration: none;
+}
